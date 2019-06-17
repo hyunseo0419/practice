@@ -5,7 +5,14 @@ const SearchBar = props => (
     <input className='searchinput' type='text' 
       placeholder='search plan' onChange={props.searching}/>
       <div>
-
+    <button className="searchoff"
+    onClick={props.clearSearch}
+    >search off</button>
+      </div>
+      <div>
+          
+          {props.result}
+        
       </div>
   </div>
 ); 

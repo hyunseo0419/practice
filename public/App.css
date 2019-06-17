@@ -1,3 +1,30 @@
 body {
     background-color: cadetblue
 }
+
+.title {
+    border : 1px solid red;
+    text-align : center;
+}
+
+.timeNow {
+    border : 1px solid red;
+    text-align : center;    
+}
+
+
+.centerbox {
+    position: relative;
+}
+
+.leftbox {
+
+}
+
+.left2box {
+
+}
+
+.botbox {
+    
+}
